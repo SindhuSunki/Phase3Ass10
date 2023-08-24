@@ -35,11 +35,11 @@
             <div class="col-md-4">Product One</div>
         </div>
         <div class="row">
-           <div class="col-md-4"><asp:Image runat="server" ID="Image1" ImageUrl="~/Images/Image1.jpg"
+           <div class="col-md-8"><asp:Image runat="server" ID="Image1" ImageUrl ="~/Image/Image1.jpg"
     Width="150" Height="150" CssClass="img-fluid" /></div>
                <table class="w-100">
                    <tr>
-                       <td class="auto-style1">Product Name</td>
+                       <td class="auto-style1" colspan="1">Product Name</td>
                        <td class="auto-style2">
                            <asp:TextBox ID="PName" runat="server"></asp:TextBox>
                            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="PName" ErrorMessage="PName Required" ForeColor="Red"></asp:RequiredFieldValidator>
